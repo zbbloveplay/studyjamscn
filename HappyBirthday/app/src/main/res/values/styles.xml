@@ -6,8 +6,10 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <!--不知为何这个去掉标题栏就是没有效果-->
-        <item name="android:windowNoTitle">true</item>
+        <!--去掉标题栏-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--去掉消息栏-->
         <item name="android:windowFullscreen">true</item>
     </style>
 
