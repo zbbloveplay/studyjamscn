@@ -67,7 +67,7 @@
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:background="@color/colorPrimaryDark"
+            android:background="#616161"
             android:layout_marginTop="16dp"/>
 
 
@@ -134,6 +134,7 @@
         android:layout_centerHorizontal="true"
         android:onClick="resetScore"
         android:text="RESET"
+        android:id="@+id/bt_reset"
         android:layout_marginBottom="22dp"/>
 
 </RelativeLayout>
